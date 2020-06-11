@@ -23,5 +23,5 @@ $ julia main.jl -q "linear"
 ```
 returns the same results for the ```PSQ-a``` and ```PSQ-s``` algorithms (Table 2). 
 
-The simulations were carried out using the standard PC with Intel Core i5 3.4 GHz processor and 8 GB memory. Solving optimization problems with the analytic reformulation requires less than a few seconds on average, whereas the sample approximation of the chance constraints requires by at most 78 seconds for ```PIQ-s``` algorithm on average. 
+The simulations were carried out using the standard PC with Intel Core i5 3.4 GHz processor and 8 GB memory. Solving optimization problems with the analytic reformulation requires less than a few seconds on average, whereas the sample approximation of the chance constraints requires by at most 78 seconds for ```PIQ-s``` algorithm on average on the largest test case. 
 
