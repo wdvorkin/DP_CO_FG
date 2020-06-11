@@ -1,6 +1,6 @@
 # DP_CO_FG
 
-This repository contains supplementary materials for the paper __Differentially Private Convex Optimization with Feasibility Guarantees__ by V. Dvorkin, F. Fioretto, P. Van Hentenryck, J. Kazempour, and P. Pinson.
+This repository contains supplementary materials for the paper __Differentially Private Convex Optimization with Feasibility Guarantees__ submitted to the 34th Conference on Neural Information Processing Systems
 
 The optimization models were implemented in [Julia](https://juliacomputing.com/products/juliapro) (v.1.4) using [JuMP](https://github.com/JuliaOpt/JuMP.jl) modeling language for mathematical optimization embedded in Julia. The models require [Mosek](https://www.mosek.com) commercial optimization solver, which needs to be installed and licensed. 
 
