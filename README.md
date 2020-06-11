@@ -4,7 +4,7 @@ This repository contains supplementary materials for the paper __Differentially 
 
 The optimization models were implemented in [Julia](https://juliacomputing.com/products/juliapro) (v.1.4) using [JuMP](https://github.com/JuliaOpt/JuMP.jl) modeling language for mathematical optimization embedded in Julia. The models require [Mosek](https://www.mosek.com) comercial optimization solver, which needs to be installed and licensed. 
 
-To activate the packages in ```Project.toml```, clone the project using e.g. ```git clone```, ```cd``` to the project directory and call
+To activate the packages in ```Project.toml```, ```cd``` to the project directory and call
 ```
 $ julia 
 julia> ]
