@@ -17,3 +17,9 @@ where ```julia``` is an alias to Julia installation. To run the code, ```cd``` t
 $ julia DP_CC_OPF.jl
 ```
 
+By default, the program returns the solution of the ```PIQ-a``` and ```PSQ-s``` algorothms for the ```case118_ieee``` and 100 siulation runs. To alter the default settings, parse the arguments in the comment line. For example, 
+```
+$ julia DP_CC_OPF.jl -q "linear"
+```
+returns 
+
