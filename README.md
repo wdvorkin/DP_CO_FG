@@ -9,17 +9,17 @@ To activate the packages in ```Project.toml```, clone the project using e.g. ```
 $ julia 
 julia> ]
 (@v1.4) pkg> activate .
-(DP_CC_OPF) pkg> instantiate
+(code_compainion) pkg> instantiate
 ```
 
 where ```julia``` is an alias to Julia installation. To run the code, ```cd``` to the project directory and call
 ```
-$ julia DP_CC_OPF.jl
+$ julia main.jl
 ```
 
-By default, the program returns the solution of the ```PIQ-a``` and ```PSQ-s``` algorothms for the ```case118_ieee``` and 100 siulation runs. To alter the default settings, parse the arguments in the comment line. For example, 
+By default, the program returns the solution of the ```PIQ-a``` and ```PIQ-s``` algorothms for the ```case118_ieee``` and 100 siulation runs. The results will be stored in ```output``` folder. To alter the default settings, specify the arguments in the command line. For example, 
 ```
-$ julia DP_CC_OPF.jl -q "linear"
+$ julia main.jl -q "linear"
 ```
-returns 
+returns the same results for the ```PSQ-a``` and ```PSQ-s``` algorithms. 
 
