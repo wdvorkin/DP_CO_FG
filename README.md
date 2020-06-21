@@ -9,7 +9,7 @@ To activate the packages in ```Project.toml```, ```cd``` to the project director
 $ julia 
 julia> ]
 (@v1.4) pkg> activate .
-(code_compainion) pkg> instantiate
+        pkg> instantiate
 ```
 
 where ```julia``` is an alias to Julia installation. To run the code, ```cd``` to the project directory and call
