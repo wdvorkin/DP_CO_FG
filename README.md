@@ -17,7 +17,7 @@ where ```julia``` is an alias to Julia installation. To run the code, ```cd``` t
 $ julia main.jl
 ```
 
-By default, the program returns the solution of the ```PIQ-a``` and ```PIQ-s``` algorithms for the ```case118_ieee``` and 100 simulation runs (Table 1). The results will be stored in ```output``` folder. To alter the default settings, specify the arguments in the command line. For example, 
+By default, the program returns the solution of the ```PIQ-a``` and ```PIQ-s``` algorithms for the ```case3_lmbd``` test case  for 100 simulation runs (Table 1). The results will be stored in ```output``` folder. To alter the default settings, specify the arguments in the command line. For example, 
 ```
 $ julia main.jl -q "linear"
 ```
