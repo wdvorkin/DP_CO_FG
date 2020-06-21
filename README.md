@@ -1,4 +1,4 @@
-# DP_CO_FG
+# DP-CO-FG: Differentially Private Convex Optimization with Feasibility Guarantees
 
 This repository contains the code for the paper __Differentially Private Convex Optimization with Feasibility Guarantees__ submitted to the 34th Conference on Neural Information Processing Systems
 
