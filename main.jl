@@ -4,7 +4,7 @@ using PowerModels, DataStructures, DataFrames, CSV, ArgParse
 using CDDLib, Polyhedra, LinearAlgebra
 using Distributions
 
-# laod scripts
+# load scripts
 include("scr/build_opt.jl")
 include("scr/exp_settings.jl")
 include("scr/load_data.jl")
